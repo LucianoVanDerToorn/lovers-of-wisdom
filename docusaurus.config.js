@@ -38,6 +38,17 @@ const config = {
     ],
   ],
 
+  plugins: [
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        id: 'interviews',
+        routeBasePath: 'interviews',
+        path: './interviews',
+      },
+    ],
+    ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -54,6 +65,7 @@ const config = {
             position: 'left',
             label: 'Learning guides',
           },
+          {to: '/interviews', label: 'Interviews', position: 'left'},
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/lucianonooijen/lovers-of-wisdom',

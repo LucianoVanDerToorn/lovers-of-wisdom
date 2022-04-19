@@ -15,4 +15,6 @@ Choices for introductory work for the history of philosophy:
 
 Of course it's possible to mix and match here, or if you get bored to start reading from the primary works, but you'll get less out of it.
 
+Feel free to skip this step and only consult the works if you don't understand something.
+
 After the introductory work: Cottingham's Anthology
