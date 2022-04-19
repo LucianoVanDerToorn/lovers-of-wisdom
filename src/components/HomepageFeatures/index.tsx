@@ -10,32 +10,29 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Learning Guides',
+    Svg: require('@site/static/img/undraw_learnguide.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Helping both beginning and intermediate learners of philosophy, with other subjects in the humanities coming soon.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Expert interviews',
+    Svg: require('@site/static/img/undraw_interviews.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Interviews with experts to give insight into how to learn, what to learn, and how to keep motivated to learn.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Community',
+    Svg: require('@site/static/img/undraw_community.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        With our active Discord community of over 1000 members you can ask questions when you're stuck or you can join reading groups to learn together.
       </>
     ),
   },

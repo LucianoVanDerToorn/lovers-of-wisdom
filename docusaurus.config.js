@@ -6,15 +6,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'The Love of Wisdom',
+  tagline: 'For those who never want to stop learning',
+  url: 'https://theloveofwisdom.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'lucianonooijen', // Usually your GitHub org/user name.
+  projectName: 'lovers-of-wisdom', // Usually your repo name.
 
   presets: [
     [
@@ -23,14 +23,13 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        //   path: 'guides',
+          routeBasePath: 'guides',
+          editUrl: 'https://github.com/lucianonooijen/lovers-of-wisdom/',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/lucianonooijen/lovers-of-wisdom',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -43,9 +42,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'Lovers of Wisdom',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Lovers of Wisdom',
           src: 'img/logo.svg',
         },
         items: [
@@ -53,11 +52,11 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Learning guides',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/lucianonooijen/lovers-of-wisdom',
             label: 'GitHub',
             position: 'right',
           },
@@ -67,11 +66,15 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Creators',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Luciano van der Toorn',
+                to: 'https://lucianonooijen.com',
+              },
+              {
+                label: 'Georgios Michalopoulos',
+                to: 'https://lucianonooijen.com',
               },
             ],
           },
@@ -79,16 +82,16 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discord.gg/xDj2WM75Vd',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/PhilosophiBooks',
+              },
+              {
+                label: 'Lichess',
+                href: 'https://lichess.org/team/philosophers',
               },
             ],
           },
@@ -101,12 +104,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/lucianonooijen/lovers-of-wisdom',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Lovers of Wisdom`,
       },
       prism: {
         theme: lightCodeTheme,
