@@ -13,7 +13,7 @@ const config = {
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "lucianonooijen", // Usually your GitHub org/user name.
+  organizationName: "lucianovandertoorn", // Usually your GitHub org/user name.
   projectName: "lovers-of-wisdom", // Usually your repo name.
 
   presets: [
@@ -25,11 +25,11 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           //   path: 'guides',
           routeBasePath: "guides",
-          editUrl: "https://github.com/lucianonooijen/lovers-of-wisdom/",
+          editUrl: "https://github.com/lucianovandertoorn/lovers-of-wisdom/",
         },
         blog: {
           showReadingTime: true,
-          editUrl: "https://github.com/lucianonooijen/lovers-of-wisdom",
+          editUrl: "https://github.com/lucianovandertoorn/lovers-of-wisdom",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -72,7 +72,7 @@ const config = {
           },
           { to: "/blog", label: "Blog", position: "left" },
           {
-            href: "https://github.com/lucianonooijen/lovers-of-wisdom",
+            href: "https://github.com/lucianovandertoorn/lovers-of-wisdom",
             label: "GitHub",
             position: "right",
           },
@@ -86,11 +86,11 @@ const config = {
             items: [
               {
                 label: "Luciano van der Toorn",
-                to: "https://lucianonooijen.com",
+                to: "https://lucianovandertoorn.com",
               },
               {
                 label: "Georgios Michalopoulos",
-                to: "https://lucianonooijen.com",
+                to: "https://lucianovandertoorn.com",
               },
             ],
           },
@@ -120,7 +120,7 @@ const config = {
               },
               {
                 label: "GitHub",
-                href: "https://github.com/lucianonooijen/lovers-of-wisdom",
+                href: "https://github.com/lucianovandertoorn/lovers-of-wisdom",
               },
             ],
           },
